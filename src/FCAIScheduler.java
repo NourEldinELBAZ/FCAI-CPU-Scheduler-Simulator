@@ -1,10 +1,3 @@
-// Done
-
-
-// the idea is not to reassign the current process, we simply switch between the currentprocess and
-// if we find betterprocess after 40% we assign currentProcess = betterProcess
-// else we assign it to null and in the next iteration if it's null we assign it to readyQueue.top;
-
 import java.awt.*;
 import java.util.*;
 import java.util.List;
