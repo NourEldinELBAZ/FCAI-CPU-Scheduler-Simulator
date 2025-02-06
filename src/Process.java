@@ -2,13 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Process {
-    public String name;          // Process name (e.g., P1, P2)
-    public int arrivalTime;      // Time at which the process arrives
-    public int burstTime;        // Total burst time of the process
-    public int priority;         // Priority of the process
-    public int remainingTime;    // Remaining burst time (used in preemptive scheduling)
-    public int waitingTime;      // Total waiting time for the process
-    public int turnaroundTime;   // Total turnaround time for the process
+    public String name;          
+    public int arrivalTime;  
+    public int burstTime;        
+    public int priority;       
+    public int remainingTime;
+    public int waitingTime;
+    public int turnaroundTime;
     public int FCAI_Factor= 0;
     public int quantum= 0;
     public List<String> quantumHistory = new ArrayList<>();
